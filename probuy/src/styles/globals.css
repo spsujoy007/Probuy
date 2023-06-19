@@ -27,3 +27,11 @@ body {
     rgb(var(--background-start-rgb));
     font-family: 'Poppins', sans-serif;
 }
+
+
+.btnShadow{
+  box-shadow: 0px 25px 55px #6365f1b0;
+}
+.btnShadow2{
+  box-shadow: 0px 0px 50px #6365f1b0;
+}
