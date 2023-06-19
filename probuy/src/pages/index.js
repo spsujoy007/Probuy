@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Layout() {
   return (
     <div className='bg-white'>
-      <div className='min-h-[100vh]'>
+      <div>
         <Header></Header>
         <Home></Home>
       </div>

@@ -1,9 +1,8 @@
 import ContainItem from '@/Commons/Container';
 import Link from 'next/link';
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
 const Header = () => {
-
     const menuItem =  <>
         <li><Link href={'/'}>Home</Link></li>
         <li><Link href={'/'}>Contact</Link></li>
@@ -11,7 +10,7 @@ const Header = () => {
     </>
 
     return (
-      <div className="navbar bg-white z-[1000px] fixed">
+      <div className="navbar z-[1000px] fixed navbarHead">
             <div className="navbar-start">
     <div className="dropdown">
       <label tabIndex={0} className="btn btn-ghost lg:hidden">
