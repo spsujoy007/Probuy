@@ -13,9 +13,12 @@ const HeroSection = () => {
     return (
         <StartingDiv>
             <ContainDiv>
-            <div className='bg-indigo-100'>
-              <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h2>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi voluptatum, inventore consequatur tempore illum perferendis rem ratione dolorum quaerat id nesciunt possimus omnis officiis impedit.</p>
+            <div className='bg-indigo-100 px-12 py-2 rounded-xl mt-5 min-h-[50vh] flex items-center heroBanner'>
+              <div className='w-[50%]'>
+                <h3 className='text-2xl uppercase text-indigo-500 font-bold'>Colorful accessories</h3>
+                <h2 className='text-5xl uppercase font-bold mt-1'>Super creative <br /> products</h2>
+                <p className='mt-3 text-lg'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi voluptatum, inventore consequatur tempore illum perferendis rem ratione.</p>
+              </div>
             </div>
             </ContainDiv>
         </StartingDiv>
